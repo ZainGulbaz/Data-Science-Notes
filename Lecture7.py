@@ -103,11 +103,13 @@ Cars=pd.read_csv("https://raw.githubusercontent.com/Masadn/PythonCourse/master/d
 #print cars_per_cap and drives_right column as Data Frame
 
 #using loc
-print(Countries.loc[:,["cars_per_cap","drives_right"]]);
+# print(Countries.loc[:,["cars_per_cap","drives_right"]]);
 
 #using iloc
 
-print(Countries.iloc[:,[2,1]]);
+# print(Countries.iloc[:,[2,1]]);
+
+# print(Countries.loc(Countries[["carrs_per_cap"]]=80))
 
 
 
